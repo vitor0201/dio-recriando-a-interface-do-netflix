@@ -1,0 +1,103 @@
+:root {
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* elementos base*/
+body {
+    background: var(--preto);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.box-movie {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: "Arial Black", Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* filme principal */
+.main-movie {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url("/img/seventh-seal-cape.jpg");
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-movie .container {
+    width: 70%;
+}
+
+.main-movie .description {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.main-movie .title {
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-movie .btn {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: seashell;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.main-movie .btn:hover {
+    background-color: white;
+    color: black;
+    transition: 3s ease all;
+}
+
+.main-movie .btn i {
+    margin-right: 8px;
+}
+
+.movies-carrousel {
+    margin-top: 5px;
+}
