@@ -5,5 +5,5 @@ Aulas do projeto: https://web.dio.me/lab/recriando-a-interface-do-netflix/learni
 Meu perfil na DIO: https://web.dio.me/users/vitorrodrigues0201?tab=achievements
 
 
+Projeto: https://4cats.netlify.app/
 
-![image-20211111181644992](C:\Users\Vitor\AppData\Roaming\Typora\typora-user-images\image-20211111181644992.png)
